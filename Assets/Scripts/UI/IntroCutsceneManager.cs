@@ -17,7 +17,7 @@ public class IntroCutsceneManager : MonoBehaviour
     [Header("Scene Transition")]
     [SerializeField] private string mainMenuSceneName = "MainMenu";
     [SerializeField] private float introDuration = 10f;
-    [SerializeField] private Animator fadeAnimator;
+    [SerializeField] public Animator fadeAnimator;
     
     [Header("Sound")]
     [SerializeField] private AudioSource introMusic;
